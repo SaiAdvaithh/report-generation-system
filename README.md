@@ -49,6 +49,62 @@ report-generation-system/
 └── requirements.txt
 ```
 
-## Frontend U
-<img width="1163" height="661" alt="image" src="https://github.com/user-attachments/assets/31480f25-17b0-4eee-8bf0-3e8167c7604a" />
+## Frontend UI
 
+<img width="1163" height="661" alt="Screenshot 2026-05-28 000255" src="https://github.com/user-attachments/assets/51d5b18e-7e6d-4c04-8f9e-af35299125dd" />
+
+The frontend provides a simple report generation dashboard where users can:
+
+* Select report date range
+* Enter container and company details
+* Upload company logo and signature
+* Generate downloadable reports
+
+## Backend Setup
+
+```bash
+cd backend
+pip install -r ../requirements.txt
+uvicorn main:app --reload
+```
+
+Backend runs on:
+
+```bash
+http://localhost:8000
+```
+
+## Frontend Setup
+
+```bash
+cd frontend/report-dashboard
+npm install
+npm start
+```
+
+Frontend runs on:
+
+```bash
+http://localhost:3000
+```
+
+## API Documentation
+
+FastAPI Swagger Docs:
+
+```bash
+http://localhost:8000/docs
+```
+
+## Future Improvements
+
+* Advanced analytics dashboard
+* Better UI styling
+* Authentication enhancements
+* Docker deployment
+* Cloud storage integration
+* Real-time telemetry visualization
+
+## Author
+
+N Sai Advaith
