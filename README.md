@@ -50,3 +50,4 @@ report-generation-system/
 ```
 
 ## Frontend U
+<img width="325" height="642" alt="image" src="https://github.com/user-attachments/assets/00863809-4652-48a5-95bb-efe9d362c155" />
